@@ -1,0 +1,219 @@
+  
+  header{
+    background-color: #7700fff3;
+    color: #fff;
+  }
+
+.container-contact{
+    min-height: 100vh;
+    background: #08071d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/stats-bg.jpg) no-repeat center center/cover;
+}
+
+.container-contact form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.container-contact form h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.container-contact form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+.container-contact form input::placeholder{
+    color: #ddd;
+}
+
+.container-contact form #lastName,
+.container-contact form #mobile{
+    margin-left: 20px;
+}
+
+.container-contact form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.container-contact form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.container-contact form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.container-contact form #button:hover{
+    opacity: 0.7;
+}
+
+
+/**
+   * responsive for larger than 550px screen
+   */
+
+   @media (max-width: 700px) {
+    
+.container-contact{
+    min-height: 100vh;
+    width: 100;
+    padding-top: 100px;
+    overflow: hidden;
+    background: #08071d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/stats-bg.jpg) no-repeat center center/cover;
+}
+
+.container-contact form{
+    width: 370px;
+    height: 480px;
+    display: block;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    /* flex-wrap: wrap; */
+}
+
+.container-contact form h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.container-contact form input{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+.container-contact form input::placeholder{
+    color: #ddd;
+}
+
+.container-contact form #lastName,
+.container-contact form #mobile{
+    margin-left: 0px;
+}
+
+.container-contact form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.container-contact form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 30px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.container-contact form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right:0px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+.container-contact form #button:hover{
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+  }
+  
