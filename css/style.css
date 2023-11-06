@@ -470,7 +470,7 @@ body {
   padding-block: 12px;
 }
 .navbar-link:hover{
-  color: var(--ghost-white);
+  color: var(--black_70);
   transform: translateY(5px);
 }
 .overlay {
